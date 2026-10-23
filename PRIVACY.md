@@ -14,9 +14,9 @@ Your projects, audio recordings, imported audio, transcripts, summaries, convers
 
 ## AI requests and third parties / AI 请求与第三方
 
-AI features are optional. When you request a summary or answer, the app sends transcript text and your question to the AI service you selected: the TaoToken preset or a custom HTTPS endpoint compatible with OpenAI Chat Completions. A project-wide question sends the full available transcripts of every recording in that project in one request. A recording-specific question sends that recording's full transcript. Your API key is sent to the selected service to authenticate the request. That provider may process and retain the request under its own privacy terms; review them before entering a key or using AI. We do not control a custom provider's data practices.
+AI features are optional. Before sending transcript text, the app asks you to explicitly allow sharing with your selected service; changing its endpoint requires a new confirmation. When you request a summary or answer, the app sends transcript text and your question to the AI service you selected: the TaoToken preset or a custom HTTPS endpoint compatible with OpenAI Chat Completions. A project-wide question sends the full available transcripts of every recording in that project in one request. A recording-specific question sends that recording's full transcript. Your API key is sent to the selected service to authenticate the request. That provider may process and retain the request under its own privacy terms; review them before entering a key or using AI. We do not control a custom provider's data practices.
 
-AI 功能为可选功能。请求摘要或回答时，应用会把转写文字和问题发送到你选择的 AI 服务：TaoToken 预设服务或自定义的兼容 OpenAI Chat Completions 的 HTTPS 地址。项目问答会在一次请求中发送该项目每段录音的全部可用转写；单段问答发送该段转写全文。API Key 会发送到所选服务用于认证。该服务可能按其自身隐私条款处理和保留请求，请在输入密钥或使用 AI 前查看其条款。我们无法控制自定义服务的数据处理方式。
+AI 功能为可选功能。发送转写文字前，应用会要求你明确同意向所选服务共享；更换服务地址后需要重新确认。请求摘要或回答时，应用会把转写文字和问题发送到你选择的 AI 服务：TaoToken 预设服务或自定义的兼容 OpenAI Chat Completions 的 HTTPS 地址。项目问答会在一次请求中发送该项目每段录音的全部可用转写；单段问答发送该段转写全文。API Key 会发送到所选服务用于认证。该服务可能按其自身隐私条款处理和保留请求，请在输入密钥或使用 AI 前查看其条款。我们无法控制自定义服务的数据处理方式。
 
 ## Your choices, retention, and deletion / 你的选择、保留与删除
 
